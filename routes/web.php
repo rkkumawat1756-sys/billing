@@ -49,10 +49,11 @@ Route::get('users/profile/{id}', [MasterController::class, 'viewProfile'])->name
     
     
 //Teacher
+// Route::match(['get', 'post'], 'teachers/index', [StaffController::class, 'index']);
+// Route::match(['get', 'post'], 'teachers/add', [StaffController::class, 'add']);
+
+
 Route::match(['get', 'post'], 'teachers/index', [StaffController::class, 'index']);
 Route::match(['get', 'post'], 'teachers/add', [StaffController::class, 'add']);
-
-
-
 
 });
