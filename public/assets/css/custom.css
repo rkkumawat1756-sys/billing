@@ -1,0 +1,40 @@
+.sessionSelectDesign {
+    border: none;
+    background: none;
+    appearance: none;   /* Removes default browser styles */
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    outline: none;
+    cursor: pointer;
+    font-size: 14px;
+    padding: 0 8px;
+}
+
+.sessionSelectDesign:focus,
+.sessionSelectDesign:hover {
+    border: none;
+    background: none;
+    outline: none;
+    box-shadow: none;
+}
+
+.title {
+    background-color: #eaeaea;
+    border-radius: 6px;
+    padding: 3px 0px 3px 15px;
+    font-size: 16px;
+}
+
+.card-orange-outline {
+    border-top: 3px solid #fd7e14;
+}
+
+#simple-bar .fa{
+    color:#fff !important;
+    font-size: large;
+}
+
+span.button{
+    cursor: pointer !important;
+}
+
